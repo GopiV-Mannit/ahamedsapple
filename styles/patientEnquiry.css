@@ -1,0 +1,390 @@
+body{
+    overflow: hidden;
+}
+.page-container{
+    overflow: hidden;
+}
+
+.full {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  
+  }
+  
+  .top {
+    justify-content: flex-start;
+    display: flex;
+    margin-top: 10px;
+    margin-right: 80px;
+    width: 71%;
+  }
+    /* .success-message {
+        color: #ffffff;
+        font-weight:bolder ;
+        padding: 15px;
+        font-size: large;
+        background-color: #4CAF50;
+        border: 1px solid #D6E9C6;
+        border-radius: 4px;
+      } */
+  
+  
+  .search-container {
+    position: relative;
+  }
+  
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    fill: #BAACAC;
+  }
+  
+  .error-message {
+    color: rgb(255, 98, 0);
+    margin-top: 5px;
+    margin-left: 15px;
+  }
+  .success-message{
+    color: rgb(34, 255, 0);
+    margin-top: 5px;
+    margin-left: 15px;
+  }
+  .submit-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+  }
+  button{
+  
+    background-color: #8db600;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    margin-right: 100px;
+    transition: background-color 0.3s, transform 0.3s;
+    overflow: hidden;
+  }
+  .add-icon {
+    cursor: pointer;
+    width: 50px;
+    margin-right: 100px;
+    height: 50px;
+    background-color: #8db600;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    top: 140px; /* Adjust the top position as needed */
+    right: 10px; /* Adjust the right position as needed */
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+  }
+  .add-button-container {
+    margin-bottom: 10px;
+  }
+  .turnup-ratio {
+    justify-content: flex-start;
+    display: flex;
+    margin-top: 10px;
+    margin-right: 80px;
+    width: 71%;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+    margin-top: 10px;
+  
+  }
+  
+  label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .additional-info {
+    width: 70%;
+    padding: 20px;
+    margin-top: 20px;
+    border: 3px solid #8bd600;
+    border-radius: 15px;
+    box-shadow: 12px 12px 15px rgba(0, 0, 0, 0.2);
+  
+  }
+  
+  .patient {
+    width: 70%;
+    padding: 20px;
+    border: 3px solid #8bd600;
+    border-radius: 15px;
+    box-shadow: 12px 12px 15px rgba(0, 0, 0, 0.2)
+  }
+  
+  .spacer {
+    margin-bottom: 15px;
+  }
+  
+  .location {
+    display: flex;
+    align-items: center;
+    width: 80%;
+  }
+  
+  .input-age {
+    margin-right: 15px;
+  }
+  
+  .single-line {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-left: 80px;
+    text-align: left;
+  }
+  
+  .single-line-1 {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-left: 80px;
+    text-align: left;
+  }
+  
+  .remarks {
+    display: flex;
+    margin-left: 80px;
+    gap: 10px;
+    width: 80%;
+    text-align: left;
+  }
+  .remarks textarea {
+    width: 100%;
+    margin-right: 10px;
+    resize: none;
+  }
+  .remarks-1 {
+    display: flex;
+    margin-left: 70px;
+    padding-right: 50%;
+    gap: 10px;
+    width: 175%;
+    text-align: left;
+  }
+  .remarks-1 textarea {
+    width: 100%;
+    margin-right: 40px;
+    resize: none;
+  }
+  
+  .custom-input {
+    border: 3px solid #8bd600;
+    border-radius: 10px;
+    padding: 2px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .doctor-selection {
+    display: flex;
+    align-items: center;
+    width: 1250px;
+    margin-left: 70px;
+    text-align: left;
+  }
+  
+  .query {
+    display: flex;
+    width: 100%;
+    margin-left: 70px;
+    text-align: left;
+  }
+  
+  label {
+    width: 150px;
+    margin-left: 10px;
+  }
+  .radio-options {
+    display: flex;
+    align-items: left;
+    justify-content: space-evenly;
+    width: 22%;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  .radio-options input[type="radio"] {
+    vertical-align: middle;
+    margin-top: -6px;
+  }
+  .dates {
+    display: flex;
+    margin-left: -30px;
+    justify-content: space-between;
+  }
+  
+  .expected-date {
+    flex: 1;
+    margin-right: 40px;
+  }
+  .finance-distance-treatment-remarks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    flex-direction: row;
+    margin-left: 10px;
+  }
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .expected-date label {
+    margin-right: 10px;
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .full{
+      width: 80%; 
+      margin-right: 0;
+      font-weight: 500;      
+    }
+    .top{
+      width: 80%; 
+      margin-right: 0;
+      flex-direction: column;
+      
+    }
+    .turnup-ratio{
+      width: 50%; 
+      margin-right: 0;
+    }
+    .form-container,
+    .additional-info,
+    .patient {
+      width: 100%; 
+      margin-right: 0; 
+    }
+  
+    .single-line{
+      flex-direction: column; 
+      align-items: flex-start;
+      width: 80%; 
+      margin-left: 0; 
+    }
+    .single-line label {
+      margin-bottom: 8px; 
+    }
+    .single-line-1{
+      flex-direction: column; 
+      align-items: flex-start; 
+      width: 80%; 
+      margin-left: 0; 
+    }
+    .gender-label{
+      margin-top: 10px;
+    }
+   
+    .radio-options{
+      width: 50%;
+    }
+    .location{
+      width: 80%;
+      margin-left: 0;
+    }
+    .remarks{
+      flex-direction:column;
+      margin-top:10px;
+      margin-left: 10px;
+    }
+    .remarks textarea{
+      align-items: flex-start;
+      width: 245px ; 
+      resize: none 
+    }
+    .remarks-1{
+      flex-direction:column;
+      margin-top:10px;
+      margin-left: 10px; 
+    }
+    .remarks-1 textarea{
+     align-items: flex-start;
+      width: 245px ; 
+      resize: none ;
+    }
+  .query,
+    .doctor-selection{
+      flex-direction: column; 
+      align-items: flex-start; 
+      width: 80%; 
+      margin-left: 0;
+    }
+  
+    .finance-distance-treatment-remarks,
+    .dates {
+      width: 110%; 
+      margin-left: 0; 
+    }
+  
+    .input-age {
+      flex-direction: column; 
+      align-items: flex-start;
+      width: 90%;
+    }
+  
+    .custom-input{
+      flex-direction: column; 
+      align-items: flex-start; 
+      width: 90%;
+    }
+    .finance,
+    .distance,
+    .treatment {
+      width: 100%; 
+      margin-right: 0; 
+    }
+    .expected-date label {
+      margin-right: 0;
+      padding-right: 25px;
+    }
+  
+    .submit-container {
+      margin-top: 210%; 
+      width: 50%;
+      padding-left: 25%;
+    }
+    button{
+      width: 80px;
+    }
+  
+  }
+  @media only screen and (max-width: 400px){
+  
+    .submit-container {
+      margin-top: 260%; 
+      width: 50%;
+      padding-left: 25%;
+    }
+    button{
+      width: 110px;
+      height: 25px;
+      padding-left: 20px;
+      margin-top: 40px;
+    }
+}  

@@ -1,0 +1,81 @@
+
+.profile-container {
+  max-width: 300px;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 40%;
+  padding: 20px;
+  border: 5px solid #07eb4b;
+  border-radius: 8px;
+  border-color: #8db600;
+}
+
+h2 {
+  color: #333;
+}
+
+.profile-fields {
+  margin-top: 20px;
+}
+
+.username-container{
+  width: 85%;
+  /* margin: 0 auto; */
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-color: #8db600;
+  border: 5px solid #8db600;
+  border-radius: 8px;
+  margin-top: 20px;
+
+}
+
+label {
+  /* align-items: center; */
+  display: block;
+  margin-bottom: 8px;
+  color: #555;
+  font-weight: bold;
+}
+
+.label-with-eye {
+  display: flex;
+  align-items: center;
+}
+
+.eye-toggle {
+  cursor: pointer;
+  margin-left: 8px; /* Adjust this value based on your preference */
+  font-weight: lighter;
+  opacity: 0.8;
+}
+input[type='text']{
+  font-weight: bold;
+}
+input {
+  position: relative;
+  align-items: center;
+  width: 90%;
+    padding: 8px;
+    background-color: none;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-color: #8db600;
+    border-width: 4px;
+}
+
+button {
+  width: 30%;
+  margin-left: 70%;
+  background-color: #8db600;
+  border-radius: 20px;
+  padding: 5px 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #5cc01e;
+}
+
